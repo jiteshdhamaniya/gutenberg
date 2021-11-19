@@ -78,7 +78,7 @@ function render_block_core_comment_template( $attributes, $content, $block ) {
 }
 
 /**
- * Registers the `core/comment-teOrmplate` block on the server.
+ * Registers the `core/comment-template` block on the server.
  */
 function register_block_core_comment_template() {
 	register_block_type_from_metadata(
